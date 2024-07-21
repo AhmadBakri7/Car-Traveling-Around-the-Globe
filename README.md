@@ -45,6 +45,6 @@ The following assets (all in PNG format with a transparent background) are requi
 
 ###
 
-<img src="![image](https://github.com/user-attachments/assets/c9ff59de-fcd7-48c7-9372-f43d4c524c01)" alt="Screenshot 1" width="300" />
+<img src="https://github.com/user-attachments/assets/c9ff59de-fcd7-48c7-9372-f43d4c524c01" alt="Screenshot 1" width="300" />
 
 
