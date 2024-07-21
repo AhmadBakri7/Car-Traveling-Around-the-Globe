@@ -41,4 +41,10 @@ The following assets (all in PNG format with a transparent background) are requi
 - When the car touches the rock, the car's speed changes to \(0.5x\), and the rock falls to the bottom left corner while rotating 180 degrees.
 - The car continues rotating at \(0.5x\) speed until it reaches the traffic light again, repeating the cycle indefinitely.
 
+## Screenshots
+
+###
+
+<img src="![image](https://github.com/user-attachments/assets/c9ff59de-fcd7-48c7-9372-f43d4c524c01)" alt="Screenshot 1" width="300" />
+
 
