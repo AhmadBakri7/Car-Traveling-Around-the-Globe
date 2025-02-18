@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <!-- Car Image -->
+
+    <ImageView
+        android:id="@+id/Earth"
+        android:layout_width="243dp"
+        android:layout_height="233dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="85dp"
+        android:layout_marginEnd="83dp"
+        android:layout_marginBottom="119dp"
+        android:src="@drawable/planet_earth"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/Cloud2"
+        android:layout_width="143dp"
+        android:layout_height="102dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="136dp"
+        android:layout_marginBottom="523dp"
+        android:src="@drawable/cloud"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/Sun"
+        android:layout_width="124dp"
+        android:layout_height="106dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="143dp"
+        android:layout_marginBottom="561dp"
+        android:src="@drawable/sun"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/Cloud1"
+        android:layout_width="118dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="139dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="154dp"
+        android:layout_marginBottom="594dp"
+        android:src="@drawable/cloud"
+        tools:visibility="visible"
+        tools:context=".TrafficAnimationActivity"
+    />
+
+    <ImageView
+        android:id="@+id/TrafficLight"
+        android:layout_width="19dp"
+        android:layout_height="125dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="195dp"
+        android:layout_marginTop="262dp"
+        android:layout_marginEnd="197dp"
+        android:layout_marginBottom="344dp"
+        android:src="@drawable/traffic_light" />
+
+    <ImageView
+        android:id="@+id/Car"
+        android:layout_width="85dp"
+        android:layout_height="94dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="163dp"
+        android:layout_marginTop="314dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginBottom="323dp"
+        android:src="@drawable/carr" />
+
+    <ImageView
+        android:id="@+id/Rock"
+        android:layout_width="44dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="647dp"
+        android:layout_marginEnd="190dp"
+        android:layout_marginBottom="57dp"
+        android:rotation="180"
+        android:src="@drawable/rock" />
+
+
+</RelativeLayout>
